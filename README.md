@@ -2,3 +2,4 @@ I would use ChatGPT for Summarisation and reasoning for its structure and transp
 I would use Claude for Code and Reason as its code correctness and flow part is good. Reason explanation is acceptable and satisfied. When it comes to summarisation, Claude is not doing good by giving simple unstructured explanation when compared with other tools
 I would use Gemini for performing well with Summarise, Code and Reason. It is nutral in providing the explanation and flow to all tasks. When compared with the other tools, Ii rate it as a nutral tool and giving satisfied output.
 I would use Perplexity for citations that provide sources. Apart form sources, it is good in summarisation compared with other tasks. Code and Reason it is not providing satisfying output compared with other tools.
+Currently none of the models from 4 tools restrict access to image input. They all accept image input in free tier as per observation
