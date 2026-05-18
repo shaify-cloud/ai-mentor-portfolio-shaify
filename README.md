@@ -19,7 +19,10 @@ Currently, none of the models from these four tools restrict access to image inp
 
 - ✅ Google AI Studio API key provisioned
 - ✅ Groq API key provisioned
-- ✅ Hello-Gemini call working — see [Day1_Setup.ipynb](Day1_Setup.ipynb)
+- ✅ Hello-Gemini call working — see
+
+<img width="1620" height="644" alt="gemini_first_call" src="https://github.com/user-attachments/assets/b328d2a4-721b-425e-8e6c-9b5b144bf291" />
+
 - 4-tool comparison matrix from Lab 1A: see screenshot below
 
-![Gemini first call](gemini_first_call.png)
+<img width="1620" height="143" alt="Day-01-Matrix" src="https://github.com/user-attachments/assets/f20f3da1-9301-423a-80e4-109b339ab55a" />
