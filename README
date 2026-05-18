@@ -1,5 +1,16 @@
-I would use ChatGPT for Summarisation and reasoning for its structure and transparensy in providing the output. Code part it is giving good but comapred with other tools it is underperforming. The flow is good but code step by step explanation coud have been improved
-I would use Claude for Code and Reason as its code correctness and flow part is good. Reason explanation is acceptable and satisfied. When it comes to summarisation, Claude is not doing good by giving simple unstructured explanation when compared with other tools
-I would use Gemini for performing well with Summarise, Code and Reason. It is nutral in providing the explanation and flow to all tasks. When compared with the other tools, Ii rate it as a nutral tool and giving satisfied output.
-I would use Perplexity for citations that provide sources. Apart form sources, it is good in summarisation compared with other tasks. Code and Reason it is not providing satisfying output compared with other tools.
-Currently none of the models from 4 tools restrict access to image input. They all accept image input in free tier as per observation
+# AI Mentor Portfolio - Mohammad Shaifu Zama
+
+## ChatGPT
+I would use ChatGPT for summarisation and reasoning because of its structured and transparent way of providing output. The code generation is good, but compared with other tools, it is slightly underperforming. The overall flow is good; however, the step-by-step explanation of the code could be improved.
+
+## Claude
+I would use Claude for coding and reasoning because its code correctness and logical flow are very good. The reasoning explanation is acceptable and satisfactory. However, when it comes to summarisation, Claude does not perform as well, as it often provides simple and less structured explanations compared with other tools.
+
+## Gemini
+I would use Gemini because it performs well in summarisation, coding, and reasoning tasks. It provides balanced and neutral explanations with a consistent flow across all tasks. Compared with the other tools, I would rate Gemini as a neutral and reliable tool that provides satisfactory outputs.
+
+## Perplexity
+I would use Perplexity mainly for citations and source-based responses. Apart from providing sources, it performs well in summarisation compared with its other capabilities. However, for coding and reasoning tasks, it does not provide outputs as satisfying as the other tools.
+
+## Image Input Support
+Currently, none of the models from these four tools restrict access to image input on their free tiers. Based on observation, all of them accept image inputs in the free version.
