@@ -26,3 +26,8 @@ Currently, none of the models from these four tools restrict access to image inp
 - 4-tool comparison matrix from Lab 1A: see screenshot below
 
 <img width="1620" height="143" alt="Day-01-Matrix" src="https://github.com/user-attachments/assets/f20f3da1-9301-423a-80e4-109b339ab55a" />
+
+## Day 4 — Productivity sprint
+
+**Company:** Capgemini
+**Time:** 45 minutes (timeboxed)
