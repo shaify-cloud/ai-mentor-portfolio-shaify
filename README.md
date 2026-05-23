@@ -31,3 +31,17 @@ Currently, none of the models from these four tools restrict access to image inp
 
 **Company:** Capgemini
 **Time:** 45 minutes (timeboxed)
+
+
+## Day 5 Lab 5B — Hugging Face Pulls
+
+### Models tested
+- `facebook/bart-large-mnli` — zero-shot classification
+- `distilbert-base-uncased-finetuned-sst-2-english` — sentiment
+
+### Timing comparison
+
+| | min | avg | Notes |
+|---|-----|-----|-------|
+| HF Inference API | 0.8s | 1.2s | Cold-start: 20s |
+| Local in Colab | 2.1s | 3.4s | Download: 60s on first run |
