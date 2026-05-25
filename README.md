@@ -83,3 +83,12 @@ Currently, none of the models from these four tools restrict access to image inp
 ### Files
 - `Day6_PlacementProcessor.ipynb` — the notebook
 - `data/jds.jsonl` — output of this sprint, input for Day 7 RAG
+
+- ## Day 7 Lab 7A — ChromaDB Hello-World
+
+- Embedded 10 CSE Sem 5 paragraphs with all-MiniLM-L6-v2 (384-dim, free)
+- Indexed in persistent ChromaDB collection `hello_syllabus`
+- Ran 3 semantic queries — observed: top-1 match is relevant when query topic is in corpus, irrelevant when not
+- Plotted PCA 2D — visible OS / DBMS clusters
+
+**Reflection:** Semantic search returns nearest, not exact. RAG must enforce citations to catch out-of-corpus queries (this afternoon's Sprint 2).
