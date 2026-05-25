@@ -45,3 +45,16 @@ Currently, none of the models from these four tools restrict access to image inp
 |---|-----|-----|-------|
 | HF Inference API | 0.8s | 1.2s | Cold-start: 20s |
 | Local in Colab | 2.1s | 3.4s | Download: 60s on first run |
+
+## Day 6 Lab 6A — Errors handled
+
+1. **Markdown fence wrapping** (`\`\`\`json ... \`\`\``)
+   The retry prompt asks Gemini to output raw JSON without fences. Triggers on ~5-10% of calls.
+
+2. **Hallucinated phone number when source has none**
+   `Optional[str] = None` in Pydantic — model returns `null`, schema validates.
+
+3. **Empty / whitespace-only input**
+   Pydantic raises ValidationError with "Field required". Caller catches.
+
+**Hallucination on garbage input:** Gemini sometimes invents a plausible résumé from non-résumé text. Defence: validate input before sending (e.g., minimum length, presence of email-like pattern).
