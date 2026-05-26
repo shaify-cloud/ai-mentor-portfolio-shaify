@@ -123,3 +123,24 @@ Currently, none of the models from these four tools restrict access to image inp
 | 3 | Which JDs require Python? | "Per jd_3 (Accenture)..., per jd_5 (Cognizant)..." | jd_3, jd_5, jd_9 |
 | 4 | Top 3 skills across JDs? | "Java, Python, SQL appear in 7+ of 10 JDs..." | jd_0, jd_1, jd_2 |
 | 5 | What is TCS Codevita? | "I do not know — not in corpus." | (none) |
+
+
+## Day 8 Lab 8A — RAGAS Baseline
+
+20-question testset. Day-7 RAG.
+
+| Metric | Score | Threshold | Pass? |
+|--------|-------|-----------|-------|
+| context_precision | 0.72 | ≥ 0.6 | ✓ |
+| faithfulness | 0.68 | ≥ 0.7 | ✗ |
+| answer_relevancy | 0.81 | ≥ 0.7 | ✓ |
+
+### Interpretation
+
+- **Faithfulness 0.68** means ~32% of answers are not fully grounded in retrieved chunks. The RAG is partially hallucinating. Action: tighten the prompt with "use ONLY the context" + "do not use prior knowledge".
+- **Context precision 0.72** is acceptable. Top-4 retrieval is finding mostly relevant chunks.
+- **Answer relevancy 0.81** is strong. Gemini is answering the question asked, not drifting.
+
+### Decision: ship at this score?
+
+**Not yet.** Faithfulness < 0.7 is the gate for student-facing systems. Sprint 3 (this afternoon) tightens the prompt and adds red-team — re-eval expected to hit 0.75+.
