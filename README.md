@@ -144,3 +144,13 @@ Currently, none of the models from these four tools restrict access to image inp
 ### Decision: ship at this score?
 
 **Not yet.** Faithfulness < 0.7 is the gate for student-facing systems. Sprint 3 (this afternoon) tightens the prompt and adds red-team — re-eval expected to hit 0.75+.
+
+## Day 9 Lab 9A — Trace as a story
+
+1. **Human asked:** "What is TCS's 2026 hiring quota?"
+2. **Agent thought:** "I don't know recent figures. I should search."
+3. **Agent acted:** called `web_search('TCS 2026 hiring quota')`.
+4. **Agent observed:** got back search results mentioning 40-50K range.
+5. **Agent answered:** synthesised "Based on search results, TCS plans to hire 40-50K freshers..."
+
+This is the ReAct loop. Every agent we build follows this pattern.
