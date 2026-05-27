@@ -154,3 +154,15 @@ Currently, none of the models from these four tools restrict access to image inp
 5. **Agent answered:** synthesised "Based on search results, TCS plans to hire 40-50K freshers..."
 
 This is the ReAct loop. Every agent we build follows this pattern.
+
+## Day 9 Lab 9A — Hello-LangGraph
+
+- 1-tool ReAct agent with DuckDuckGo web_search
+- 4-message trace on a live-fact question (TCS 2026 hiring)
+- Failure case: bad URL → agent reported "could not find" / agent hallucinated [pick one]
+
+### Reflection (3 lines)
+
+1. The trace IS the explanation. Print every step.
+2. The doc-string IS the prompt. Bad doc-string = bad tool selection.
+3. Real agents handle tool failures gracefully — define failure modes in the doc-string.
